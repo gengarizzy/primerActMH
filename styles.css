@@ -1,0 +1,37 @@
+#logo{
+    width:auto;
+    height: 140px;
+}
+
+#header_principal{
+    display: flex;
+   
+}
+#header_article{
+    display: flex;
+   
+}
+
+#img_article_index{
+
+    
+    height: 200px;
+    width: auto;
+}
+
+p{
+    text-indent: 1.5em;
+}
+
+
+#upcoming_events{
+    padding-left: 2em;
+}
+
+#please_email{
+    text-indent: 1.5em;
+}
+
+#mightduckshockeyleague{
+    font-size: 50px;
+}
