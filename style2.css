@@ -1,0 +1,126 @@
+.logo{
+
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    z-index: 2;
+    top: 750px;
+    left: 50px;
+    
+
+    
+}
+
+.header{
+
+    width: 100%;
+    height: 600px;
+    background: url(/src/task2/design1_image1.jpg);
+    background-position: 0px -300px;
+    text-align: left;
+    font-size: 2em;
+    text-shadow: 2px 2px 1px rgba(239, 236, 236, 0.758);
+   
+}    
+
+.header_text{
+    position: absolute;
+    top:600px;
+    width: 98%;
+    border: 2px solid black !important;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-shadow: none;
+    border: 1px;
+    
+
+}
+
+nav ul{
+    
+    font-size: 32px;
+    
+   
+   
+   
+    
+    
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+nav ul li{
+    text-decoration: none;
+    display: inline;
+   
+    padding: 1px;
+}
+
+.navdiv{
+    display: inline;
+    position: absolute;
+    margin-top: -640px;
+    margin-left: 1500px;
+    z-index: 4;
+    border: 2px;
+    
+}
+
+.content{
+    display:inline-block;
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 400px;
+}
+
+.content ul li{
+    font-size: 40px;
+    font-weight: bold;
+    list-style: none;
+    text-indent: 0px;
+}
+
+.content:last-of-type{
+    font-size: 25px;
+    text-indent: 20px;
+    
+
+}
+
+.content_about{
+    display:inline-block;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 200px;
+}
+
+.content_about ul li{
+    font-size: 40px;
+    font-weight: bold;
+    list-style: none;
+    text-indent: 0px;
+}
+
+.content_about:last-of-type{
+    font-size: 25px;
+    text-indent: 20px;
+    
+
+}
+
+.active{
+
+    color: white;
+    background-color: rgb(22, 178, 22);
+    
+}
+
+.links{
+    color: white;
+    background-color: blue;
+}
