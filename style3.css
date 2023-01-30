@@ -1,0 +1,145 @@
+.logo{
+
+    height: 230px;
+    width: 230px;
+    position: absolute;
+    z-index: 2;
+    top: 40px;
+    right: 0px;
+   
+        
+
+    
+}
+
+.header{
+
+    width: 100%;
+    height: 600px;
+    background: url(/src/task2/design1_image1.jpg);
+    background-position: 0px -500px;
+    text-align: center;
+    color: black;
+    font-size: 3em;
+    text-shadow: 1px 1px 20px white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif  
+ 
+    
+   
+   
+}    
+
+.header_text{
+    position: absolute;
+    top:600px;
+    width: 98%;
+    background-color: gray;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 1px 1px 20px white;
+    border-style: inset;
+    
+
+}
+
+nav ul{
+    
+    font-size: 50px;
+    
+   
+   
+   
+    
+    
+    list-style: none;
+
+}
+
+a{
+    text-decoration: dotted;
+}
+
+nav ul li{
+
+    
+    display:inline;
+}
+
+.navdiv{
+    display: inline;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: -20px;
+    z-index: 4;
+    border: 2px;
+    
+    
+    
+}
+
+.content{
+    display:inline-block;
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 450px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.content ul li{
+    font-size: 40px;
+    font-weight: bold;
+    list-style: none;
+    text-indent: 0px;
+}
+
+.content:last-of-type{
+    font-size: 25px;
+    text-indent: 20px;
+    
+
+}
+
+.content_about{
+    display:inline-block;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 200px;
+}
+
+.content_about ul li{
+    font-size: 40px;
+    font-weight: bold;
+    list-style: none;
+    text-indent: 0px;
+}
+
+.content_about:last-of-type{
+    font-size: 25px;
+    text-indent: 20px;
+    
+
+}
+
+.about{
+    left: -500px;
+}
+
+.contact{
+    position: absolute;
+    left: 300px;
+}
+
+.padding{
+    padding: 20px !important;
+}
+
+.active{
+
+    color: black;
+}
+
+.links{
+    color: blue;
+}
