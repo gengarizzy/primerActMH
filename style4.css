@@ -1,0 +1,23 @@
+table{
+    font-size: 25px;
+}
+
+tr{
+
+    text-align: center;
+    
+}
+
+td{
+    padding: 10px;
+}
+
+header{
+    text-align: left;
+}
+
+.scheduletable{
+    display: flex;
+    justify-content: start;
+}
+

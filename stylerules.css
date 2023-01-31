@@ -1,0 +1,26 @@
+.lista{
+    text-indent: none;
+}
+
+header{
+    text-align: center
+}
+
+p{
+    text-indent: 2em;
+}
+
+ul{
+
+       
+    padding: 0 !important;
+}
+
+li{
+    padding: 0 !important;
+}
+
+div{
+    margin-left: 10%;
+    margin-right: 10%;
+}
