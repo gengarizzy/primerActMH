@@ -27,3 +27,8 @@ header{
 }
 
 
+.phone_mail{
+    display: flex;
+    justify-content: space-between !important;
+    margin: 0 !important;
+}
