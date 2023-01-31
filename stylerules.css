@@ -10,17 +10,30 @@ p{
     text-indent: 2em;
 }
 
-ul{
+.header_p{
+    text-indent: 0px;
+    font-size: 1.5em;
+}
+
+ol{
 
        
-    padding: 0 !important;
+    padding-left: 1em;
 }
+
+ul{
+    padding: 0;
+}
+
+
 
 li{
     padding: 0 !important;
 }
 
 div{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+
 }
