@@ -69,9 +69,9 @@ nav ul li{
 
 .navdiv{
     display: inline;
-    position: absolute;
-    margin-top: -5px;
-    margin-left: -55px;
+    position: relative;
+    bottom: -460px;
+    left: -570px;
     z-index: 4;
     border: 2px;
     
@@ -80,12 +80,16 @@ nav ul li{
 }
 
 .content{
-    display:inline-block;
-    position: absolute;
-    margin-top: 125px;
-    margin-left: 450px;
+   display: flex;
+   justify-content: center;
+   margin-top: 100px;
+   ;
+    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+
+   
+    
 }
 
 .content ul li{
@@ -232,33 +236,9 @@ th{
     
 }
 
-.content{
-    display:inline-block;
-    position: absolute;
-    margin-top: 125px;
-    margin-left: 400px;
-}
 
-.content ul li{
-    font-size: 40px;
-    font-weight: bold;
-    list-style: none;
-    text-indent: 0px;
-}
 
-.content:last-of-type{
-    font-size: 25px;
-    text-indent: 20px;
-    
 
-}
-
-.content_about{
-    display:inline-block;
-    position: absolute;
-    margin-top: 110px;
-    margin-left: 200px;
-}
 
 .content_about ul li{
     font-size: 40px;
@@ -276,14 +256,13 @@ th{
 
 .active{
 
-    color: white;
-    background-color: rgb(22, 178, 22);
+    color: rgb(19, 234, 19);
     
 }
 
 .links{
-    color: white;
-    background-color: blue;
+    color: blue;
+    
 }
 
 .article_rules{
@@ -355,3 +334,9 @@ th{
 .main_schedule{
     margin-top: 110px;
 }
+
+.circle{
+    list-style-type: circle;
+}
+
+
