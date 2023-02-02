@@ -2,6 +2,8 @@
 
     height: 300px;
     width: 300px;
+
+    
     position: absolute;
     z-index: 2;
     top: 750px;
@@ -9,6 +11,11 @@
     
 
     
+}
+
+.logo_mighty{
+    height: 300px;
+    width: 300px;
 }
 
 .header{
@@ -20,6 +27,7 @@
     text-align: left;
     font-size: 2em;
     text-shadow: 2px 2px 1px rgba(239, 236, 236, 0.758);
+    margin: 0;
    
 }    
 
@@ -65,7 +73,27 @@ nav ul li{
     display: inline;
     position: absolute;
     margin-top: -640px;
-    margin-left: 1500px;
+    margin-left: 1300px;
+    z-index: 4;
+    border: 2px;
+    
+}
+
+.navdivschedule{
+    display: inline;
+    position: absolute;
+    margin-top: -731px;
+    margin-left: 1300px;
+    z-index: 4;
+    border: 2px;
+    
+}
+
+.navdivrules{
+    display: inline;
+    position: absolute;
+    margin-top: -731px;
+    margin-left: 1300px;
     z-index: 4;
     border: 2px;
     
@@ -123,4 +151,69 @@ nav ul li{
 .links{
     color: white;
     background-color: blue;
+}
+
+.article_rules{
+    margin-top: 5%;
+}
+
+.lista{
+    text-indent: none;
+}
+
+ol{
+
+       
+    padding-left: 1em;
+}
+
+table{
+    font-size: 25px;
+}
+
+tr{
+
+    text-align: center;
+    border: 1px solid black;
+    
+}
+
+td{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+th{
+    border: 1px solid black;
+}
+
+.list_letters{
+    margin: 0 !;
+    padding: 0 !important;
+    text-indent: 0;
+}
+
+.main_schedule{
+    margin-top: 5%;
+}
+
+.article_schedule{
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.schedule_info{
+    font-size: 20px;
+}
+
+.scheduletable{
+    border: 1px black;
+}
+
+
+
+.article_rules{
+    font-size: 25px;
 }

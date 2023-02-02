@@ -109,3 +109,69 @@ nav ul li{
 .padding{
     padding: 20px !important;
 }
+
+.article_rules{
+    margin-top: 5%;
+}
+
+.article_rules{
+    margin-top: 5%;
+}
+
+.lista{
+    text-indent: none;
+}
+
+ol{
+
+       
+    padding-left: 1em;
+}
+
+table{
+    font-size: 25px;
+}
+
+tr{
+
+    text-align: center;
+    border: 1px solid black;
+    
+}
+
+td{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+th{
+    border: 1px solid black;
+}
+
+.list_letters{
+    margin: 0 !;
+    padding: 0 !important;
+    text-indent: 0;
+}
+
+.main_schedule{
+    margin-top: 5%;
+}
+
+.article_schedule{
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.schedule_info{
+    font-size: 20px;
+}
+
+.scheduletable{
+    border: 1px black;
+}
+
+
+
