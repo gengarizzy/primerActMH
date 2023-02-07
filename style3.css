@@ -70,7 +70,7 @@ nav ul li{
 .navdiv{
     display: inline;
     position: relative;
-    bottom: -460px;
+    bottom: -455px;
     left: -450px;
     z-index: 4;
     border: 2px;
