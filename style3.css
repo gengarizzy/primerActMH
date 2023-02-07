@@ -71,7 +71,7 @@ nav ul li{
     display: inline;
     position: relative;
     bottom: -460px;
-    left: -570px;
+    left: -450px;
     z-index: 4;
     border: 2px;
     
@@ -340,3 +340,22 @@ th{
 }
 
 
+form{
+    width: 70%;
+    text-align: center;
+}
+
+#maps{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10vw;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.map{
+    text-align: center;
+    font-size: 1.5em;
+   
+}
