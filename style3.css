@@ -82,6 +82,9 @@ nav ul li{
 .content{
    display: flex;
    justify-content: center;
+  
+   padding: 0;
+   margin: 0 ;
    margin-top: 100px;
    
     
@@ -92,8 +95,11 @@ nav ul li{
     
 }
 
+.content ul strong{
+    font-size: 50px;
+}
 .content ul li{
-    font-size: 40px;
+    font-size: 20px;
     font-weight: bold;
     list-style: none;
     text-indent: 0px;
@@ -166,6 +172,8 @@ ol{
        
     padding-left: 1em;
 }
+
+
 
 table{
     font-size: 25px;
@@ -359,3 +367,121 @@ form{
     font-size: 1.5em;
    
 }
+
+@media only screen and(max-width:768){
+
+    img{
+        width:20px;
+        height: 20px;
+    }
+
+    .logo{
+        width: 20px;
+        height: 20px;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+
+    main{
+        margin-top: 100px;
+    }
+
+    .navdiv{
+        
+        display: flex;
+        flex-direction: column;
+    
+        width: 20vw;
+        flex-wrap: wrap;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin-top: 470px;
+        margin-right: 270px;
+        
+        
+    }
+
+    .navdiv a{
+        font-size: 70px;
+        justify-content: center;
+    }
+
+   
+
+    body{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    div{
+        display: flex;
+    }
+
+    .header{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-position: -400px -300px;
+        
+        font-size: 20px;
+    }
+
+   
+
+    #articlerules{
+        
+        margin-top: 500px;
+        width: 100vw;
+       
+
+
+    }
+    
+   
+
+    .content{
+        margin-top: 500px;
+        width: 100vw;
+        
+    }
+
+    form{
+        width: 100vw;
+        font-size: 20px;
+       
+    }
+   
+
+   
+
+    .header_text{
+        display: flex;
+        font-size: 50px;
+        color: red;
+        justify-content: center;
+        margin-top: 520px;
+       
+    }
+
+
+
+
+    .logo{
+        width:100px;
+        height: 100px;
+        align-self: flex-start;
+    }
+
+   
+    
+
+  }
